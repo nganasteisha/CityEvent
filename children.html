@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Для дітей — CityEvent</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="header__container">
+
+        <a href="index.html" class="logo">
+            CityEvent
+        </a>
+
+        <nav class="navigation">
+
+            <a href="index.html">
+                Головна
+            </a>
+
+            <a href="children.html" class="active">
+                Події
+            </a>
+
+            <a href="#categories">
+                Категорії
+            </a>
+
+            <a href="#more">
+                Більше
+            </a>
+
+        </nav>
+
+        <a href="#children" class="header__button">
+            Знайти подію
+        </a>
+
+    </div>
+
+</header>
+
+
+<section class="page-hero">
+
+    <div class="page-hero__container">
+
+        <p class="page-hero__subtitle">
+            АФІША МІСЬКИХ ПОДІЙ
+        </p>
+
+        <h1>
+            Для дітей
+        </h1>
+
+        <p class="page-hero__text">
+            Веселі пригоди, творчість, пізнання
+            та яскраві події для дітей у Львові.
+        </p>
+
+    </div>
+
+</section>
+
+
+<main class="events" id="children">
+
+    <div class="events__container">
+
+
+        <aside class="sidebar" id="categories">
+
+            <p class="sidebar__subtitle">
+                ОБРАТИ НАСТРІЙ
+            </p>
+
+            <h2>
+                Категорії
+            </h2>
+
+            <ul class="sidebar__list">
+
+                <li>
+                    <a href="index.html">
+                        Усі події
+                    </a>
+                </li>
+
+                <li>
+                    <a href="concerts.html">
+                        Концерти
+                    </a>
+                </li>
+
+                <li>
+                    <a href="festivals.html">
+                        Фестивалі
+                    </a>
+                </li>
+
+                <li>
+                    <a href="cinema.html">
+                        Кіно
+                    </a>
+                </li>
+
+                <li>
+                    <a href="theater.html">
+                        Театр
+                    </a>
+                </li>
+
+                <li>
+                    <a href="children.html" class="active">
+                        Для дітей
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <div class="sidebar__subscribe">
+
+                <span class="sidebar__star">
+                    ✦
+                </span>
+
+                <p>
+                    Не знайшли подію?
+                    <br>
+                    Підпишіться
+                    на щотижневу добірку.
+                </p>
+
+            </div>
+
+        </aside>
+
+
+        <section class="events__main">
+
+            <div class="events__header">
+
+                <div>
+
+                    <p class="section__subtitle">
+                        6 ПОДІЙ
+                    </p>
+
+                    <h2>
+                        Найближчі події
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="events__grid">
+
+
+                <article class="event-card" data-children="disney-lviv">
+
+                    <img
+                        src="images/disney-lviv.png"
+                        alt="Афіша події Дісней у Львові"
+                    >
+
+                    <div class="event-card__content">
+
+                        <span class="event-card__category">
+                            ДЛЯ ДІТЕЙ
+                        </span>
+
+                        <h3>
+                            Дісней у Львові
+                        </h3>
+
+                        <p class="event-card__date">
+                            12 жовтня · 14:00
+                        </p>
+
+                        <p class="event-card__place">
+                            Площа Ринок
+                        </p>
+
+                        <p class="event-card__description">
+                            Святкова подія з тематичними активностями, музикою, розвагами та казковою атмосферою для всієї родини.
+                        </p>
+
+                        <a href="#eventModal" class="event-card__button">
+                            Детальніше →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="event-card" data-children="quest-laboratory">
+
+                    <img
+                        src="images/quest-laboratory.png"
+                        alt="Афіша квесту-лабораторії"
+                    >
+
+                    <div class="event-card__content">
+
+                        <span class="event-card__category">
+                            ДЛЯ ДІТЕЙ
+                        </span>
+
+                        <h3>
+                            Квест-лабораторія
+                        </h3>
+
+                        <p class="event-card__date">
+                            19 жовтня · 13:00
+                        </p>
+
+                        <p class="event-card__place">
+                            Музей науки Львів
+                        </p>
+
+                        <p class="event-card__description">
+                            Пізнавальний квест із загадками, науковими експериментами та цікавими завданнями для маленьких дослідників.
+                        </p>
+
+                        <a href="#eventModal" class="event-card__button">
+                            Детальніше →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="event-card" data-children="zoo-adventures">
+
+                    <img
+                        src="images/zoo-adventures.png"
+                        alt="Афіша події Зоо пригоди у Львові"
+                    >
+
+                    <div class="event-card__content">
+
+                        <span class="event-card__category">
+                            ДЛЯ ДІТЕЙ
+                        </span>
+
+                        <h3>
+                            Зоо пригоди у Львові
+                        </h3>
+
+                        <p class="event-card__date">
+                            26 жовтня · 12:00
+                        </p>
+
+                        <p class="event-card__place">
+                            Львівський зоопарк
+                        </p>
+
+                        <p class="event-card__description">
+                            Весела пізнавальна пригода зі знайомством із тваринами, цікавими активностями та сімейним відпочинком.
+                        </p>
+
+                        <a href="#eventModal" class="event-card__button">
+                            Детальніше →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="event-card" data-children="world-of-dragons">
+
+                    <img
+                        src="images/world-of-dragons.png"
+                        alt="Афіша події Світ драконів"
+                    >
+
+                    <div class="event-card__content">
+
+                        <span class="event-card__category">
+                            ДЛЯ ДІТЕЙ
+                        </span>
+
+                        <h3>
+                            Світ драконів
+                        </h3>
+
+                        <p class="event-card__date">
+                            5 жовтня · 13:00
+                        </p>
+
+                        <p class="event-card__place">
+                            Парк культури та відпочинку
+                        </p>
+
+                        <p class="event-card__description">
+                            Фантастична пригода з тематичними іграми, творчими завданнями та казковою атмосферою.
+                        </p>
+
+                        <a href="#eventModal" class="event-card__button">
+                            Детальніше →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="event-card" data-children="planetarium">
+
+                    <img
+                        src="images/planetarium.png"
+                        alt="Афіша події Планетарій"
+                    >
+
+                    <div class="event-card__content">
+
+                        <span class="event-card__category">
+                            ДЛЯ ДІТЕЙ
+                        </span>
+
+                        <h3>
+                            Планетарій
+                        </h3>
+
+                        <p class="event-card__date">
+                            18 жовтня · 12:00
+                        </p>
+
+                        <p class="event-card__place">
+                            Львівський палац культури
+                        </p>
+
+                        <p class="event-card__description">
+                            Пізнавальна подія про космос, планети та зоряне небо у цікавому форматі для дітей.
+                        </p>
+
+                        <a href="#eventModal" class="event-card__button">
+                            Детальніше →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="event-card" data-children="kids-dream-workshop">
+
+                    <img
+                        src="images/kids-dream-workshop.png"
+                        alt="Афіша Майстерні дитячих мрій"
+                    >
+
+                    <div class="event-card__content">
+
+                        <span class="event-card__category">
+                            ДЛЯ ДІТЕЙ
+                        </span>
+
+                        <h3>
+                            Майстерня дитячих мрій
+                        </h3>
+
+                        <p class="event-card__date">
+                            25 жовтня · 11:00
+                        </p>
+
+                        <p class="event-card__place">
+                            ТРЦ Forum Lviv
+                        </p>
+
+                        <p class="event-card__description">
+                            Творча майстерня з малюванням, рукоділлям та цікавими завданнями для маленьких творців.
+                        </p>
+
+                        <a href="#eventModal" class="event-card__button">
+                            Детальніше →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <aside class="popular" id="more">
+
+            <p class="popular__subtitle">
+                ВИБІР МІСТА
+            </p>
+
+            <h2>
+                Популярне зараз
+            </h2>
+
+            <ol class="popular__list">
+
+                <li>
+
+                    <span>
+                        01
+                    </span>
+
+                    <a href="children.html">
+                        Дісней у Львові
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <span>
+                        02
+                    </span>
+
+                    <a href="children.html">
+                        Квест-лабораторія
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <span>
+                        03
+                    </span>
+
+                    <a href="children.html">
+                        Зоо пригоди у Львові
+                    </a>
+
+                </li>
+
+            </ol>
+
+
+            <a
+                href="index.html"
+                class="popular__button"
+            >
+                Дивитися більше подій →
+            </a>
+
+        </aside>
+
+
+    </div>
+
+</main>
+
+
+<div
+    class="event-modal"
+    id="eventModal"
+    aria-hidden="true"
+>
+
+    <div
+        class="event-modal__window"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modalTitle"
+    >
+
+        <button
+            type="button"
+            class="event-modal__close"
+            id="modalClose"
+            aria-label="Закрити вікно"
+        >
+            ×
+        </button>
+
+
+        <div class="event-modal__image-wrap">
+
+            <img
+                id="modalImage"
+                class="event-modal__image"
+                src=""
+                alt=""
+            >
+
+        </div>
+
+
+        <div class="event-modal__content">
+
+            <span
+                class="event-modal__category"
+                id="modalCategory"
+            >
+                ДЛЯ ДІТЕЙ
+            </span>
+
+
+            <h2
+                class="event-modal__title"
+                id="modalTitle"
+            >
+                Подія для дітей
+            </h2>
+
+
+            <p
+                class="event-modal__intro"
+                id="modalIntro"
+            ></p>
+
+
+            <p
+                class="event-modal__description"
+                id="modalDescription"
+            ></p>
+
+
+            <div class="event-modal__highlights">
+
+                <p class="event-modal__highlights-title">
+                    Що на вас чекає
+                </p>
+
+                <p id="modalHighlights"></p>
+
+            </div>
+
+
+            <div class="event-modal__info">
+
+                <div class="event-modal__info-item">
+
+                    <span class="event-modal__info-label">
+                        Дата
+                    </span>
+
+                    <span
+                        class="event-modal__info-value"
+                        id="modalDate"
+                    ></span>
+
+                </div>
+
+
+                <div class="event-modal__info-item">
+
+                    <span class="event-modal__info-label">
+                        Час
+                    </span>
+
+                    <span
+                        class="event-modal__info-value"
+                        id="modalTime"
+                    ></span>
+
+                </div>
+
+
+                <div class="event-modal__info-item">
+
+                    <span class="event-modal__info-label">
+                        Місце
+                    </span>
+
+                    <span
+                        class="event-modal__info-value"
+                        id="modalPlace"
+                    ></span>
+
+                </div>
+
+            </div>
+
+
+            <a
+                href="https://concert.ua/uk/catalog/lviv"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="event-modal__ticket"
+            >
+                Купити квитки →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<footer class="footer">
+
+    <div class="footer__container">
+
+
+        <div class="footer__column">
+
+            <a
+                href="index.html"
+                class="footer__logo"
+            >
+                CityEvent
+            </a>
+
+            <p>
+                Твоє місто.
+                <br>
+                Твої події.
+            </p>
+
+        </div>
+
+
+        <div class="footer__column">
+
+            <h3>
+                Навігація
+            </h3>
+
+            <a href="index.html">
+                Головна
+            </a>
+
+            <a href="children.html">
+                Події
+            </a>
+
+            <a href="#categories">
+                Категорії
+            </a>
+
+            <a href="#more">
+                Більше
+            </a>
+
+        </div>
+
+
+        <div class="footer__column">
+
+            <h3>
+                Контакти
+            </h3>
+
+            <p>
+                Львів, Україна
+            </p>
+
+            <a href="mailto:info@cityevent.ua">info@cityevent.ua</a>
+
+            <a href="tel:+380674823196">+380 67 482 31 96</a>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="footer__bottom">
+
+        © 2026 CityEvent.
+        Навчальний макет для лабораторної роботи №1.
+
+    </div>
+
+</footer>
+
+
+<script>
+
+const children = {
+
+    "disney-lviv": {
+        title: "Дісней у Львові",
+        image: "images/disney-lviv.png",
+        category: "ДЛЯ ДІТЕЙ",
+        date: "12 жовтня",
+        time: "14:00",
+        place: "Площа Ринок",
+        intro: "12 жовтня на площі Ринок відбудеться яскрава дитяча подія «Дісней у Львові».",
+        description: "На дітей та їхніх батьків чекатиме святкова атмосфера, тематичні активності, музика та багато веселих розваг.\n\nПодія створена для сімейного відпочинку та подарує дітям можливість провести день у казковій атмосфері.",
+        highlights: "Тематичні активності, музика, розваги, фотозони та весела атмосфера."
+    },
+
+    "quest-laboratory": {
+        title: "Квест-лабораторія",
+        image: "images/quest-laboratory.png",
+        category: "ДЛЯ ДІТЕЙ",
+        date: "19 жовтня",
+        time: "13:00",
+        place: "Музей науки Львів",
+        intro: "19 жовтня у Музеї науки відбудеться захоплива Квест-лабораторія.",
+        description: "Діти зможуть виконувати цікаві завдання, розгадувати загадки та проводити прості наукові експерименти.\n\nКвест допоможе поєднати навчання, командну роботу та веселий відпочинок.",
+        highlights: "Квести, наукові експерименти, загадки, командна робота та нові знання."
+    },
+
+    "zoo-adventures": {
+        title: "Зоо пригоди у Львові",
+        image: "images/zoo-adventures.png",
+        category: "ДЛЯ ДІТЕЙ",
+        date: "26 жовтня",
+        time: "12:00",
+        place: "Львівський зоопарк",
+        intro: "26 жовтня на дітей чекають «Зоо пригоди у Львові».",
+        description: "Це чудова можливість провести день на свіжому повітрі, познайомитися з тваринами та дізнатися більше про світ природи.\n\nНа гостей чекатимуть цікаві активності та весела сімейна атмосфера.",
+        highlights: "Тварини, цікаві завдання, прогулянка, пізнавальні активності та сімейний відпочинок."
+    },
+
+    "world-of-dragons": {
+        title: "Світ драконів",
+        image: "images/world-of-dragons.png",
+        category: "ДЛЯ ДІТЕЙ",
+        date: "5 жовтня",
+        time: "13:00",
+        place: "Парк культури та відпочинку",
+        intro: "5 жовтня у Парку культури діти зможуть потрапити у фантастичний «Світ драконів».",
+        description: "На гостей чекатиме тематична програма з фантастичними пригодами, іграми та творчими активностями.\n\nПодія підійде для дітей, які люблять казкові історії та захопливі пригоди.",
+        highlights: "Фантастичні пригоди, тематичні ігри, творчі завдання та казкова атмосфера."
+    },
+
+    "planetarium": {
+        title: "Планетарій",
+        image: "images/planetarium.png",
+        category: "ДЛЯ ДІТЕЙ",
+        date: "18 жовтня",
+        time: "12:00",
+        place: "Львівський палац культури",
+        intro: "18 жовтня на дітей чекає пізнавальна подія «Планетарій».",
+        description: "Юні гості зможуть дізнатися більше про космос, планети та зоряне небо.\n\nПізнавальна програма допоможе дітям у цікавій формі відкрити для себе таємниці Всесвіту.",
+        highlights: "Космос, планети, зоряне небо, цікаві факти та пізнавальна програма."
+    },
+
+    "kids-dream-workshop": {
+        title: "Майстерня дитячих мрій",
+        image: "images/kids-dream-workshop.png",
+        category: "ДЛЯ ДІТЕЙ",
+        date: "25 жовтня",
+        time: "11:00",
+        place: "ТРЦ Forum Lviv",
+        intro: "25 жовтня у Forum Lviv відбудеться творча «Майстерня дитячих мрій».",
+        description: "Діти зможуть створити власні творчі роботи, проявити фантазію та провести час у веселій атмосфері.\n\nМайстерня підійде для маленьких творців, які люблять малювати, майструвати та вигадувати щось нове.",
+        highlights: "Творчі майстер-класи, малювання, рукоділля, фантазія та веселе спілкування."
+    }
+
+};
+
+
+const modal =
+    document.getElementById("eventModal");
+
+const modalWindow =
+    document.querySelector(".event-modal__window");
+
+const modalClose =
+    document.getElementById("modalClose");
+
+const modalImage =
+    document.getElementById("modalImage");
+
+const modalCategory =
+    document.getElementById("modalCategory");
+
+const modalTitle =
+    document.getElementById("modalTitle");
+
+const modalIntro =
+    document.getElementById("modalIntro");
+
+const modalDescription =
+    document.getElementById("modalDescription");
+
+const modalHighlights =
+    document.getElementById("modalHighlights");
+
+const modalDate =
+    document.getElementById("modalDate");
+
+const modalTime =
+    document.getElementById("modalTime");
+
+const modalPlace =
+    document.getElementById("modalPlace");
+
+
+function resetModalScroll() {
+
+    if (!modalWindow) {
+        return;
+    }
+
+    modalWindow.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "instant"
+    });
+
+    modalWindow.scrollTop = 0;
+}
+
+
+function openModal(childrenId) {
+
+    const event =
+        children[childrenId];
+
+    if (!event) {
+        return;
+    }
+
+    resetModalScroll();
+
+    modalImage.src =
+        event.image;
+
+    modalImage.alt =
+        `Афіша події ${event.title}`;
+
+    modalCategory.textContent =
+        event.category;
+
+    modalTitle.textContent =
+        event.title;
+
+    modalIntro.textContent =
+        event.intro;
+
+    modalDescription.textContent =
+        event.description;
+
+    modalHighlights.textContent =
+        event.highlights;
+
+    modalDate.textContent =
+        event.date;
+
+    modalTime.textContent =
+        event.time;
+
+    modalPlace.textContent =
+        event.place;
+
+    modal.classList.add(
+        "active"
+    );
+
+    modal.setAttribute(
+        "aria-hidden",
+        "false"
+    );
+
+    document.body.classList.add(
+        "modal-open"
+    );
+
+    resetModalScroll();
+
+    requestAnimationFrame(() => {
+        resetModalScroll();
+    });
+
+}
+
+
+function closeModal() {
+
+    resetModalScroll();
+
+    modal.classList.remove(
+        "active"
+    );
+
+    modal.setAttribute(
+        "aria-hidden",
+        "true"
+    );
+
+    document.body.classList.remove(
+        "modal-open"
+    );
+
+    resetModalScroll();
+
+}
+
+
+document
+    .querySelectorAll(".event-card")
+    .forEach(card => {
+
+        card.addEventListener(
+            "click",
+            function (event) {
+
+                event.preventDefault();
+
+                const childrenId =
+                    this.dataset.children;
+
+                openModal(childrenId);
+
+            }
+        );
+
+    });
+
+
+modalClose.addEventListener(
+    "click",
+    closeModal
+);
+
+
+modal.addEventListener(
+    "click",
+    function (event) {
+
+        if (
+            event.target === modal
+        ) {
+
+            closeModal();
+
+        }
+
+    }
+);
+
+
+document.addEventListener(
+    "keydown",
+    function (event) {
+
+        if (
+            event.key === "Escape" &&
+            modal.classList.contains("active")
+        ) {
+
+            closeModal();
+
+        }
+
+    }
+);
+
+</script>
+
+</body>
+</html>

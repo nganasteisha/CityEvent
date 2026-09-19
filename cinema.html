@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кіно — CityEvent</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="header__container">
+
+        <a href="index.html" class="logo">
+            CityEvent
+        </a>
+
+        <nav class="navigation">
+            <a href="index.html">
+                Головна
+            </a>
+
+            <a href="cinema.html" class="active">
+                Події
+            </a>
+
+            <a href="#categories">
+                Категорії
+            </a>
+
+            <a href="#more">
+                Більше
+            </a>
+        </nav>
+
+        <a href="#cinema" class="header__button">
+            Знайти подію
+        </a>
+
+    </div>
+</header>
+
+
+<section class="page-hero">
+
+    <div class="page-hero__container">
+
+        <p class="page-hero__subtitle">
+            АФІША МІСЬКИХ ПОДІЙ
+        </p>
+
+        <h1>
+            Кіно
+        </h1>
+
+        <p class="page-hero__text">
+            Улюблені фільми, атмосферні вечори
+            та кінопокази просто неба у Львові.
+        </p>
+
+    </div>
+
+</section>
+
+
+<main class="events" id="cinema">
+
+    <div class="events__container">
+
+        <aside class="sidebar" id="categories">
+
+            <p class="sidebar__subtitle">
+                ОБРАТИ НАСТРІЙ
+            </p>
+
+            <h2>
+                Категорії
+            </h2>
+
+            <ul class="sidebar__list">
+
+                <li>
+                    <a href="index.html">
+                        Усі події
+                    </a>
+                </li>
+
+                <li>
+                    <a href="concerts.html">
+                        Концерти
+                    </a>
+                </li>
+
+                <li>
+                    <a href="festivals.html">
+                        Фестивалі
+                    </a>
+                </li>
+
+                <li>
+                    <a href="cinema.html" class="active">
+                        Кіно
+                    </a>
+                </li>
+
+                <li>
+                    <a href="theater.html">
+                        Театр
+                    </a>
+                </li>
+
+                <li>
+                    <a href="children.html">
+                        Для дітей
+                    </a>
+                </li>
+
+            </ul>
+
+            <div class="sidebar__subscribe">
+
+                <span class="sidebar__star">
+                    ✦
+                </span>
+
+                <p>
+                    Не знайшли подію?
+                    <br>
+                    Підпишіться
+                    на щотижневу добірку.
+                </p>
+
+            </div>
+
+        </aside>
+
+
+        <section class="events__main">
+
+            <div class="events__header">
+
+                <div>
+
+                    <p class="section__subtitle">
+                        6 ПОДІЙ
+                    </p>
+
+                    <h2>
+                        Найближче кіно
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="events__grid">
+
+                <article class="event-card" data-cinema="dune-premiere">
+
+                    <img
+                        src="images/dune-premiere.png"
+                        alt="Афіша прем'єрного показу"
+                    >
+
+                    <div class="event-card__content">
+
+                        <span class="event-card__category">
+                            КІНО
+                        </span>
+
+                        <h3>
+                            Прем'єрний показ
+                        </h3>
+
+                        <p class="event-card__date">
+                            10 жовтня · 19:30
+                        </p>
+
+                        <p class="event-card__place">
+                            Митрополичі сади
+                        </p>
+
+                        <p class="event-card__description">
+                            Прем’єрний кінопоказ просто неба з великим екраном, затишною атмосферою та особливим вечірнім настроєм.
+                        </p>
+
+                        <a href="#eventModal" class="event-card__button">
+                            Детальніше →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="event-card" data-cinema="la-la-land">
+
+                    <img
+                        src="images/la-la-land.png"
+                        alt="Афіша фільму La La Land"
+                    >
+
+                    <div class="event-card__content">
+
+                        <span class="event-card__category">
+                            КІНО
+                        </span>
+
+                        <h3>
+                            Ніч кіно
+                        </h3>
+
+                        <p class="event-card__date">
+                            17 жовтня · 20:00
+                        </p>
+
+                        <p class="event-card__place">
+                            Парк культури та відпочинку
+                        </p>
+
+                        <p class="event-card__description">
+                            Нічний показ улюбленого фільму просто неба з великою атмосферою, музикою та затишним вечором у парку.
+                        </p>
+
+                        <a href="#eventModal" class="event-card__button">
+                            Детальніше →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="event-card" data-cinema="it-horror">
+
+                    <img
+                        src="images/it-horror.png"
+                        alt="Афіша фільму жахів"
+                    >
+
+                    <div class="event-card__content">
+
+                        <span class="event-card__category">
+                            КІНО
+                        </span>
+
+                        <h3>
+                            Ніч жахів
+                        </h3>
+
+                        <p class="event-card__date">
+                            25 жовтня · 21:00
+                        </p>
+
+                        <p class="event-card__place">
+                            Парк «Знесіння»
+                        </p>
+
+                        <p class="event-card__description">
+                            Нічний показ фільму жахів просто неба для тих, хто любить гострі враження та атмосферні вечори.
+                        </p>
+
+                        <a href="#eventModal" class="event-card__button">
+                            Детальніше →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="event-card" data-cinema="me-before-you">
+
+                    <img
+                        src="images/me-before-you.png"
+                        alt="Афіша романтичного кіно"
+                    >
+
+                    <div class="event-card__content">
+
+                        <span class="event-card__category">
+                            КІНО
+                        </span>
+
+                        <h3>
+                            Вечір романтичного кіно
+                        </h3>
+
+                        <p class="event-card__date">
+                            28 жовтня · 19:00
+                        </p>
+
+                        <p class="event-card__place">
+                            Стрийський парк
+                        </p>
+
+                        <p class="event-card__description">
+                            Нічний показ улюбленого фільму просто неба з великою атмосферою, музикою та затишним вечором у парку.
+                        </p>
+
+                        <a href="#eventModal" class="event-card__button">
+                            Детальніше →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="event-card" data-cinema="dovbush">
+
+                    <img
+                        src="images/dovbush.png"
+                        alt="Афіша українського кіно"
+                    >
+
+                    <div class="event-card__content">
+
+                        <span class="event-card__category">
+                            КІНО
+                        </span>
+
+                        <h3>
+                            Українське кіно
+                        </h3>
+
+                        <p class="event-card__date">
+                            31 жовтня · 19:00
+                        </p>
+
+                        <p class="event-card__place">
+                            Високий замок
+                        </p>
+
+                        <p class="event-card__description">
+                            Вечір українського кіно просто неба з великим екраном та атмосферою Львова.
+                        </p>
+
+                        <a href="#eventModal" class="event-card__button">
+                            Детальніше →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="event-card" data-cinema="how-to-train-the-dragon">
+
+                    <img
+                        src="images/how-to-train-your-dragon.png"
+                        alt="Афіша Кіно під зорями"
+                    >
+
+                    <div class="event-card__content">
+
+                        <span class="event-card__category">
+                            КІНО
+                        </span>
+
+                        <h3>
+                            Кіно під зорями
+                        </h3>
+
+                        <p class="event-card__date">
+                            2 листопада · 17:30
+                        </p>
+
+                        <p class="event-card__place">
+                            Парк культури та відпочинку
+                        </p>
+
+                        <p class="event-card__description">
+                            Атмосферний кінопоказ просто неба, де можна провести осінній вечір під улюблений фільм.
+                        </p>
+
+                        <a href="#eventModal" class="event-card__button">
+                            Детальніше →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <aside class="popular" id="more">
+
+            <p class="popular__subtitle">
+                ВИБІР МІСТА
+            </p>
+
+            <h2>
+                Популярне зараз
+            </h2>
+
+            <ol class="popular__list">
+
+                <li>
+                    <span>
+                        01
+                    </span>
+
+                    <a href="cinema.html">
+                        Прем'єрний показ
+                    </a>
+                </li>
+
+                <li>
+                    <span>
+                        02
+                    </span>
+
+                    <a href="cinema.html">
+                        Ніч кіно
+                    </a>
+                </li>
+
+                <li>
+                    <span>
+                        03
+                    </span>
+
+                    <a href="cinema.html">
+                        Ніч жахів
+                    </a>
+                </li>
+
+            </ol>
+
+            <a href="index.html" class="popular__button">
+                Дивитися більше подій →
+            </a>
+
+        </aside>
+
+    </div>
+
+</main>
+
+
+<div class="event-modal" id="eventModal" aria-hidden="true">
+
+    <div
+        class="event-modal__window"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modalTitle"
+    >
+
+        <button
+            type="button"
+            class="event-modal__close"
+            id="modalClose"
+            aria-label="Закрити вікно"
+        >
+            ×
+        </button>
+
+        <div class="event-modal__image-wrap">
+
+            <img
+                id="modalImage"
+                class="event-modal__image"
+                src=""
+                alt=""
+            >
+
+        </div>
+
+        <div class="event-modal__content">
+
+            <span
+                class="event-modal__category"
+                id="modalCategory"
+            >
+                КІНО
+            </span>
+
+            <h2
+                class="event-modal__title"
+                id="modalTitle"
+            >
+                Кіно
+            </h2>
+
+            <p
+                class="event-modal__intro"
+                id="modalIntro"
+            ></p>
+
+            <p
+                class="event-modal__description"
+                id="modalDescription"
+            ></p>
+
+            <div class="event-modal__highlights">
+
+                <p class="event-modal__highlights-title">
+                    Що на вас чекає
+                </p>
+
+                <p id="modalHighlights"></p>
+
+            </div>
+
+            <div class="event-modal__info">
+
+                <div class="event-modal__info-item">
+
+                    <span class="event-modal__info-label">
+                        Дата
+                    </span>
+
+                    <span
+                        class="event-modal__info-value"
+                        id="modalDate"
+                    ></span>
+
+                </div>
+
+                <div class="event-modal__info-item">
+
+                    <span class="event-modal__info-label">
+                        Час
+                    </span>
+
+                    <span
+                        class="event-modal__info-value"
+                        id="modalTime"
+                    ></span>
+
+                </div>
+
+                <div class="event-modal__info-item">
+
+                    <span class="event-modal__info-label">
+                        Місце
+                    </span>
+
+                    <span
+                        class="event-modal__info-value"
+                        id="modalPlace"
+                    ></span>
+
+                </div>
+
+            </div>
+
+            <a
+                href="https://concert.ua/uk/catalog/lviv"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="event-modal__ticket"
+            >
+                Купити квитки →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<footer class="footer">
+
+    <div class="footer__container">
+
+        <div class="footer__column">
+
+            <a
+                href="index.html"
+                class="footer__logo"
+            >
+                CityEvent
+            </a>
+
+            <p>
+                Твоє місто.
+                <br>
+                Твої події.
+            </p>
+
+        </div>
+
+
+        <div class="footer__column">
+
+            <h3>
+                Навігація
+            </h3>
+
+            <a href="index.html">
+                Головна
+            </a>
+
+            <a href="cinema.html">
+                Події
+            </a>
+
+            <a href="#categories">
+                Категорії
+            </a>
+
+            <a href="#more">
+                Більше
+            </a>
+
+        </div>
+
+
+        <div class="footer__column">
+
+            <h3>
+                Контакти
+            </h3>
+
+            <p>
+                Львів, Україна
+            </p>
+
+            <a href="mailto:info@cityevent.ua">info@cityevent.ua</a>
+
+            <a href="tel:+380674823196">+380 67 482 31 96</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer__bottom">
+
+        © 2026 CityEvent.
+        Навчальний макет для лабораторної роботи №1.
+
+    </div>
+
+</footer>
+
+
+<script>
+
+const cinema = {
+
+    "dune-premiere": {
+        title: "Прем'єрний показ",
+        image: "images/dune-premiere.png",
+        category: "КІНО",
+        date: "10 жовтня",
+        time: "19:30",
+        place: "Митрополичі сади",
+        intro: "10 жовтня у Митрополичих садах відбудеться атмосферний прем'єрний кінопоказ просто неба.",
+        description: "Глядачі зможуть провести вечір просто неба та переглянути фільм у незвичайній атмосфері Митрополичих садів.\n\nПеред початком показу на гостей чекатиме затишна зона відпочинку та можливість поспілкуватися з друзями.",
+        highlights: "Прем'єрний показ, великий екран, вечір просто неба, затишна атмосфера та відпочинок у центрі Львова."
+    },
+
+    "la-la-land": {
+        title: "Ніч кіно",
+        image: "images/la-la-land.png",
+        category: "КІНО",
+        date: "17 жовтня",
+        time: "20:00",
+        place: "Парк культури та відпочинку",
+        intro: "17 жовтня у Парку культури відбудеться нічний кінопоказ просто неба.",
+        description: "Парк культури перетвориться на атмосферний майданчик для вечірнього кіно. Гості зможуть розташуватися просто неба, відпочити та насолодитися фільмом у компанії друзів.",
+        highlights: "Романтичний фільм, вечір просто неба, великий екран, парк та затишна атмосфера."
+    },
+
+    "it-horror": {
+        title: "Ніч жахів",
+        image: "images/it-horror.png",
+        category: "КІНО",
+        date: "25 жовтня",
+        time: "21:00",
+        place: "Парк «Знесіння»",
+        intro: "25 жовтня у парку «Знесіння» відбудеться нічний показ фільму жахів просто неба.",
+        description: "Пізній вечір, великий екран і атмосфера осіннього парку створять особливий формат для любителів гострих вражень.\n\nПодія підійде для компанії друзів, які хочуть провести вечір незвично.",
+        highlights: "Фільм жахів, нічний показ, великий екран, атмосфера парку та яскраві емоції."
+    },
+
+    "me-before-you": {
+        title: "Вечір романтичного кіно",
+        image: "images/me-before-you.png",
+        category: "КІНО",
+        date: "28 жовтня",
+        time: "19:00",
+        place: "Стрийський парк",
+        intro: "28 жовтня у Стрийському парку відбудеться романтичний кіновечір просто неба.",
+        description: "Осінній вечір у Стрийському парку стане чудовим місцем для спокійного перегляду романтичного фільму.\n\nПодія підійде для побачення, зустрічі з друзями або просто тихого вечора під улюблене кіно.",
+        highlights: "Кіно просто неба, великий екран, вечірній показ, парк та затишна атмосфера."
+    },
+
+    "dovbush": {
+        title: "Українське кіно",
+        image: "images/dovbush.png",
+        category: "КІНО",
+        date: "31 жовтня",
+        time: "19:00",
+        place: "Високий замок",
+        intro: "31 жовтня у Високому замку відбудеться вечір українського кіно просто неба.",
+        description: "Глядачі зможуть переглянути український фільм на великому екрані просто неба та провести вечір у центральній частині Львова.\n\nПодія створена для тих, хто хоче підтримувати українське кіно та відкривати цікаві стрічки.",
+        highlights: "Український фільм, показ просто неба, великий екран, парк та атмосфера Львова."
+    },
+
+    "how-to-train-the-dragon": {
+        title: "Кіно під зорями",
+        image: "images/how-to-train-your-dragon.png",
+        category: "КІНО",
+        date: "2 листопада",
+        time: "17:30",
+        place: "Парк культури та відпочинку",
+        intro: "2 листопада у Парку культури та відпочинку відбудеться атмосферний кінопоказ під вечірнім небом.",
+        description: "Кіно під зорями — це можливість переглянути улюблений фільм на великому екрані просто неба та насолодитися вечірньою атмосферою Львова.\n\nГості зможуть провести осінній вечір у незвичайній атмосфері.",
+        highlights: "Кіно просто неба, вечірній Львів, великий екран, панорамна атмосфера та незабутній кіновечір."
+    }
+
+};
+
+
+const modal = document.getElementById("eventModal");
+const modalWindow = document.querySelector(".event-modal__window");
+const modalClose = document.getElementById("modalClose");
+const modalImage = document.getElementById("modalImage");
+const modalCategory = document.getElementById("modalCategory");
+const modalTitle = document.getElementById("modalTitle");
+const modalIntro = document.getElementById("modalIntro");
+const modalDescription = document.getElementById("modalDescription");
+const modalHighlights = document.getElementById("modalHighlights");
+const modalDate = document.getElementById("modalDate");
+const modalTime = document.getElementById("modalTime");
+const modalPlace = document.getElementById("modalPlace");
+
+
+function resetModalScroll() {
+
+    if (!modalWindow) {
+        return;
+    }
+
+    modalWindow.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "instant"
+    });
+
+    modalWindow.scrollTop = 0;
+}
+
+
+function openModal(cinemaId) {
+
+    const event = cinema[cinemaId];
+
+    if (!event) {
+        return;
+    }
+
+    resetModalScroll();
+
+    modalImage.src = event.image;
+    modalImage.alt = `Афіша події ${event.title}`;
+    modalCategory.textContent = event.category;
+    modalTitle.textContent = event.title;
+    modalIntro.textContent = event.intro;
+    modalDescription.textContent = event.description;
+    modalHighlights.textContent = event.highlights;
+    modalDate.textContent = event.date;
+    modalTime.textContent = event.time;
+    modalPlace.textContent = event.place;
+
+    modal.classList.add("active");
+
+    modal.setAttribute(
+        "aria-hidden",
+        "false"
+    );
+
+    document.body.classList.add(
+        "modal-open"
+    );
+
+    resetModalScroll();
+
+    requestAnimationFrame(() => {
+        resetModalScroll();
+    });
+
+}
+
+
+function closeModal() {
+
+    resetModalScroll();
+
+    modal.classList.remove(
+        "active"
+    );
+
+    modal.setAttribute(
+        "aria-hidden",
+        "true"
+    );
+
+    document.body.classList.remove(
+        "modal-open"
+    );
+
+    resetModalScroll();
+
+}
+
+
+document
+    .querySelectorAll(".event-card")
+    .forEach(card => {
+
+        card.addEventListener(
+            "click",
+            function (event) {
+
+                event.preventDefault();
+
+                const cinemaId =
+                    this.dataset.cinema;
+
+                openModal(cinemaId);
+
+            }
+        );
+
+    });
+
+
+modalClose.addEventListener(
+    "click",
+    closeModal
+);
+
+
+modal.addEventListener(
+    "click",
+    function (event) {
+
+        if (
+            event.target === modal
+        ) {
+
+            closeModal();
+
+        }
+
+    }
+);
+
+
+document.addEventListener(
+    "keydown",
+    function (event) {
+
+        if (
+            event.key === "Escape" &&
+            modal.classList.contains("active")
+        ) {
+
+            closeModal();
+
+        }
+
+    }
+);
+
+</script>
+
+</body>
+</html>

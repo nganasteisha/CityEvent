@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Театр — CityEvent</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="header__container">
+
+        <a href="index.html" class="logo">
+            CityEvent
+        </a>
+
+        <nav class="navigation">
+
+            <a href="index.html">
+                Головна
+            </a>
+
+            <a href="theater.html" class="active">
+                Події
+            </a>
+
+            <a href="#categories">
+                Категорії
+            </a>
+
+            <a href="#more">
+                Більше
+            </a>
+
+        </nav>
+
+        <a href="#theater" class="header__button">
+            Знайти подію
+        </a>
+
+    </div>
+
+</header>
+
+
+<section class="page-hero">
+
+    <div class="page-hero__container">
+
+        <p class="page-hero__subtitle">
+            АФІША МІСЬКИХ ПОДІЙ
+        </p>
+
+        <h1>
+            Театр
+        </h1>
+
+        <p class="page-hero__text">
+            Вистави, театральні історії,
+            живі емоції та найцікавіші постановки Львова.
+        </p>
+
+    </div>
+
+</section>
+
+
+<main class="events" id="theater">
+
+    <div class="events__container">
+
+        <aside class="sidebar" id="categories">
+
+            <p class="sidebar__subtitle">
+                ОБРАТИ НАСТРІЙ
+            </p>
+
+            <h2>
+                Категорії
+            </h2>
+
+            <ul class="sidebar__list">
+
+                <li>
+                    <a href="index.html">
+                        Усі події
+                    </a>
+                </li>
+
+                <li>
+                    <a href="concerts.html">
+                        Концерти
+                    </a>
+                </li>
+
+                <li>
+                    <a href="festivals.html">
+                        Фестивалі
+                    </a>
+                </li>
+
+                <li>
+                    <a href="cinema.html">
+                        Кіно
+                    </a>
+                </li>
+
+                <li>
+                    <a href="theater.html" class="active">
+                        Театр
+                    </a>
+                </li>
+
+                <li>
+                    <a href="children.html">
+                        Для дітей
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <div class="sidebar__subscribe">
+
+                <span class="sidebar__star">
+                    ✦
+                </span>
+
+                <p>
+                    Не знайшли подію?
+                    <br>
+                    Підпишіться
+                    на щотижневу добірку.
+                </p>
+
+            </div>
+
+        </aside>
+
+
+        <section class="events__main">
+
+            <div class="events__header">
+
+                <div>
+
+                    <p class="section__subtitle">
+                        6 ПОДІЙ
+                    </p>
+
+                    <h2>
+                        Найближчі вистави
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="events__grid">
+
+
+                <article class="event-card" data-theater="kaidasheva-simya">
+
+                    <img
+                        src="images/kaidasheva-simya.png"
+                        alt="Афіша вистави Кайдашева сім'я"
+                    >
+
+                    <div class="event-card__content">
+
+                        <span class="event-card__category">
+                            ТЕАТР
+                        </span>
+
+                        <h3>
+                            Кайдашева сім'я
+                        </h3>
+
+                        <p class="event-card__date">
+                            23 вересня · 18:00
+                        </p>
+
+                        <p class="event-card__place">
+                            Театр ім. Марії Заньковецької
+                        </p>
+
+                        <p class="event-card__description">
+                            Відома українська історія оживає на сцені у сучасній театральній постановці з гумором та живими емоціями.
+                        </p>
+
+                        <a href="#eventModal" class="event-card__button">
+                            Детальніше →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="event-card" data-theater="lyubov-i-smikh">
+
+                    <img
+                        src="images/lyubov-i-smikh.png"
+                        alt="Афіша вистави Любов і сміх"
+                    >
+
+                    <div class="event-card__content">
+
+                        <span class="event-card__category">
+                            ТЕАТР
+                        </span>
+
+                        <h3>
+                            Любов і сміх
+                        </h3>
+
+                        <p class="event-card__date">
+                            30 вересня · 19:00
+                        </p>
+
+                        <p class="event-card__place">
+                            Театр ім. Леся Курбаса
+                        </p>
+
+                        <p class="event-card__description">
+                            Легка театральна історія про стосунки, емоції та ситуації, у яких кожен може впізнати себе.
+                        </p>
+
+                        <a href="#eventModal" class="event-card__button">
+                            Детальніше →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="event-card" data-theater="tini-mista">
+
+                    <img
+                        src="images/tini-mista.png"
+                        alt="Афіша вистави Тіні міста"
+                    >
+
+                    <div class="event-card__content">
+
+                        <span class="event-card__category">
+                            ТЕАТР
+                        </span>
+
+                        <h3>
+                            Тіні міста
+                        </h3>
+
+                        <p class="event-card__date">
+                            7 жовтня · 18:30
+                        </p>
+
+                        <p class="event-card__place">
+                            Театр Лесі Українки
+                        </p>
+
+                        <p class="event-card__description">
+                            Сучасна постановка про людей великого міста, їхні історії, вибір та пошук свого місця.
+                        </p>
+
+                        <a href="#eventModal" class="event-card__button">
+                            Детальніше →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="event-card" data-theater="pislya-doshchu">
+
+                    <img
+                        src="images/pislya-doshchu.png"
+                        alt="Афіша вистави Після дощу"
+                    >
+
+                    <div class="event-card__content">
+
+                        <span class="event-card__category">
+                            ТЕАТР
+                        </span>
+
+                        <h3>
+                            Після дощу
+                        </h3>
+
+                        <p class="event-card__date">
+                            14 жовтня · 19:00
+                        </p>
+
+                        <p class="event-card__place">
+                            Львівська національна опера
+                        </p>
+
+                        <p class="event-card__description">
+                            Емоційна театральна історія про зміни, нові початки та важливі зустрічі в житті.
+                        </p>
+
+                        <a href="#eventModal" class="event-card__button">
+                            Детальніше →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="event-card" data-theater="teatr-nazhivo">
+
+                    <img
+                        src="images/teatr-nazhivo.png"
+                        alt="Афіша вистави Театр наживо"
+                    >
+
+                    <div class="event-card__content">
+
+                        <span class="event-card__category">
+                            ТЕАТР
+                        </span>
+
+                        <h3>
+                            Театр наживо
+                        </h3>
+
+                        <p class="event-card__date">
+                            21 жовтня · 18:00
+                        </p>
+
+                        <p class="event-card__place">
+                            Театр «Воскресіння»
+                        </p>
+
+                        <p class="event-card__description">
+                            Особливий вечір живого театру з акторською грою, емоціями та безпосередньою атмосферою сцени.
+                        </p>
+
+                        <a href="#eventModal" class="event-card__button">
+                            Детальніше →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="event-card" data-theater="bez-filtriv">
+
+                    <img
+                        src="images/bez-filtriv.png"
+                        alt="Афіша вистави Без фільтрів"
+                    >
+
+                    <div class="event-card__content">
+
+                        <span class="event-card__category">
+                            ТЕАТР
+                        </span>
+
+                        <h3>
+                            Без фільтрів
+                        </h3>
+
+                        <p class="event-card__date">
+                            28 жовтня · 19:30
+                        </p>
+
+                        <p class="event-card__place">
+                            Перший театр
+                        </p>
+
+                        <p class="event-card__description">
+                            Сучасна вистава про життя, стосунки, вибір та емоції людей без зайвих прикрас.
+                        </p>
+
+                        <a href="#eventModal" class="event-card__button">
+                            Детальніше →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <aside class="popular" id="more">
+
+            <p class="popular__subtitle">
+                ВИБІР МІСТА
+            </p>
+
+            <h2>
+                Популярне зараз
+            </h2>
+
+            <ol class="popular__list">
+
+                <li>
+
+                    <span>
+                        01
+                    </span>
+
+                    <a href="theater.html">
+                        Кайдашева сім'я
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <span>
+                        02
+                    </span>
+
+                    <a href="theater.html">
+                        Любов і сміх
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <span>
+                        03
+                    </span>
+
+                    <a href="theater.html">
+                        Після дощу
+                    </a>
+
+                </li>
+
+            </ol>
+
+
+            <a
+                href="index.html"
+                class="popular__button"
+            >
+                Дивитися більше подій →
+            </a>
+
+        </aside>
+
+
+    </div>
+
+</main>
+
+
+<div
+    class="event-modal"
+    id="eventModal"
+    aria-hidden="true"
+>
+
+    <div
+        class="event-modal__window"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modalTitle"
+    >
+
+        <button
+            type="button"
+            class="event-modal__close"
+            id="modalClose"
+            aria-label="Закрити вікно"
+        >
+            ×
+        </button>
+
+
+        <div class="event-modal__image-wrap">
+
+            <img
+                id="modalImage"
+                class="event-modal__image"
+                src=""
+                alt=""
+            >
+
+        </div>
+
+
+        <div class="event-modal__content">
+
+            <span
+                class="event-modal__category"
+                id="modalCategory"
+            >
+                ТЕАТР
+            </span>
+
+
+            <h2
+                class="event-modal__title"
+                id="modalTitle"
+            >
+                Театр
+            </h2>
+
+
+            <p
+                class="event-modal__intro"
+                id="modalIntro"
+            ></p>
+
+
+            <p
+                class="event-modal__description"
+                id="modalDescription"
+            ></p>
+
+
+            <div class="event-modal__highlights">
+
+                <p class="event-modal__highlights-title">
+                    Що на вас чекає
+                </p>
+
+                <p id="modalHighlights"></p>
+
+            </div>
+
+
+            <div class="event-modal__info">
+
+                <div class="event-modal__info-item">
+
+                    <span class="event-modal__info-label">
+                        Дата
+                    </span>
+
+                    <span
+                        class="event-modal__info-value"
+                        id="modalDate"
+                    ></span>
+
+                </div>
+
+
+                <div class="event-modal__info-item">
+
+                    <span class="event-modal__info-label">
+                        Час
+                    </span>
+
+                    <span
+                        class="event-modal__info-value"
+                        id="modalTime"
+                    ></span>
+
+                </div>
+
+
+                <div class="event-modal__info-item">
+
+                    <span class="event-modal__info-label">
+                        Місце
+                    </span>
+
+                    <span
+                        class="event-modal__info-value"
+                        id="modalPlace"
+                    ></span>
+
+                </div>
+
+            </div>
+
+
+            <a
+                href="https://concert.ua/uk/catalog/lviv"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="event-modal__ticket"
+            >
+                Купити квитки →
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<footer class="footer">
+
+    <div class="footer__container">
+
+
+        <div class="footer__column">
+
+            <a
+                href="index.html"
+                class="footer__logo"
+            >
+                CityEvent
+            </a>
+
+            <p>
+                Твоє місто.
+                <br>
+                Твої події.
+            </p>
+
+        </div>
+
+
+        <div class="footer__column">
+
+            <h3>
+                Навігація
+            </h3>
+
+            <a href="index.html">
+                Головна
+            </a>
+
+            <a href="theater.html">
+                Події
+            </a>
+
+            <a href="#categories">
+                Категорії
+            </a>
+
+            <a href="#more">
+                Більше
+            </a>
+
+        </div>
+
+
+        <div class="footer__column">
+
+            <h3>
+                Контакти
+            </h3>
+
+            <p>
+                Львів, Україна
+            </p>
+
+            <a href="mailto:info@cityevent.ua">info@cityevent.ua</a>
+
+            <a href="tel:+380674823196">+380 67 482 31 96</a>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="footer__bottom">
+
+        © 2026 CityEvent.
+        Навчальний макет для лабораторної роботи №1.
+
+    </div>
+
+</footer>
+
+
+<script>
+
+const theater = {
+
+    "kaidasheva-simya": {
+        title: "Кайдашева сім'я",
+        image: "images/kaidasheva-simya.png",
+        category: "ТЕАТР",
+        date: "23 вересня",
+        time: "18:00",
+        place: "Театр ім. Марії Заньковецької",
+        intro: "23 вересня у Театрі ім. Марії Заньковецької відбудеться вистава «Кайдашева сім'я».",
+        description: "Відома українська історія оживе на театральній сцені у сучасній постановці.\n\nГлядачі зможуть побачити знайомих персонажів, сімейні конфлікти, гумор та життєві ситуації, які залишаються актуальними й сьогодні.",
+        highlights: "Жива акторська гра, українська класика, гумор, емоції та атмосфера театральної сцени."
+    },
+
+    "lyubov-i-smikh": {
+        title: "Любов і сміх",
+        image: "images/lyubov-i-smikh.png",
+        category: "ТЕАТР",
+        date: "30 вересня",
+        time: "19:00",
+        place: "Театр ім. Леся Курбаса",
+        intro: "30 вересня у Театрі ім. Леся Курбаса відбудеться вистава «Любов і сміх».",
+        description: "Це легка театральна історія про стосунки, емоції та ситуації, у яких кожен може впізнати себе.\n\nВистава поєднає гумор, живі діалоги та емоційні моменти.",
+        highlights: "Гумор, акторська гра, цікава історія, живі емоції та камерна атмосфера."
+    },
+
+    "tini-mista": {
+        title: "Тіні міста",
+        image: "images/tini-mista.png",
+        category: "ТЕАТР",
+        date: "7 жовтня",
+        time: "18:30",
+        place: "Театр Лесі Українки",
+        intro: "7 жовтня у Театрі Лесі Українки відбудеться вистава «Тіні міста».",
+        description: "Постановка розповідає історію людей, які живуть у великому місті та намагаються знайти своє місце серед щоденних подій.\n\nВистава поєднує драматичні моменти, сучасну сценографію та сильну акторську гру.",
+        highlights: "Сучасна постановка, драматична історія, сценографія, акторська гра та сильні емоції."
+    },
+
+    "pislya-doshchu": {
+        title: "Після дощу",
+        image: "images/pislya-doshchu.png",
+        category: "ТЕАТР",
+        date: "14 жовтня",
+        time: "19:00",
+        place: "Львівська національна опера",
+        intro: "14 жовтня у Львівській національній опері відбудеться вистава «Після дощу».",
+        description: "Театральна історія про зміни, нові початки та людей, які зустрічаються у важливі моменти життя.\n\nОсоблива атмосфера театру та сценічна постановка допоможуть повністю зануритися в історію.",
+        highlights: "Театральна сцена, емоційна історія, акторська гра, музика та особлива атмосфера."
+    },
+
+    "teatr-nazhivo": {
+        title: "Театр наживо",
+        image: "images/teatr-nazhivo.png",
+        category: "ТЕАТР",
+        date: "21 жовтня",
+        time: "18:00",
+        place: "Театр «Воскресіння»",
+        intro: "21 жовтня у театрі «Воскресіння» відбудеться особливий вечір живого театру.",
+        description: "«Театр наживо» — це можливість побачити акторську гру максимально близько та відчути енергію сцени.\n\nВистава створена для тих, хто любить живі постановки та хоче отримати нові театральні враження.",
+        highlights: "Жива акторська гра, театральна сцена, емоції, взаємодія з глядачами та особлива атмосфера."
+    },
+
+    "bez-filtriv": {
+        title: "Без фільтрів",
+        image: "images/bez-filtriv.png",
+        category: "ТЕАТР",
+        date: "28 жовтня",
+        time: "19:30",
+        place: "Перший театр",
+        intro: "28 жовтня у Першому театрі відбудеться сучасна вистава «Без фільтрів».",
+        description: "Постановка відкрито говорить про сучасне життя, стосунки, вибір та емоції людей.\n\nГлядачі побачать історію без зайвих прикрас — чесну, динамічну та близьку до реального життя.",
+        highlights: "Сучасна історія, сильна акторська гра, гумор, емоції та відвертий погляд на життя."
+    }
+
+};
+
+
+const modal =
+    document.getElementById("eventModal");
+
+const modalWindow =
+    document.querySelector(".event-modal__window");
+
+const modalClose =
+    document.getElementById("modalClose");
+
+const modalImage =
+    document.getElementById("modalImage");
+
+const modalCategory =
+    document.getElementById("modalCategory");
+
+const modalTitle =
+    document.getElementById("modalTitle");
+
+const modalIntro =
+    document.getElementById("modalIntro");
+
+const modalDescription =
+    document.getElementById("modalDescription");
+
+const modalHighlights =
+    document.getElementById("modalHighlights");
+
+const modalDate =
+    document.getElementById("modalDate");
+
+const modalTime =
+    document.getElementById("modalTime");
+
+const modalPlace =
+    document.getElementById("modalPlace");
+
+
+function resetModalScroll() {
+
+    if (!modalWindow) {
+        return;
+    }
+
+    modalWindow.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "instant"
+    });
+
+    modalWindow.scrollTop = 0;
+}
+
+
+function openModal(theaterId) {
+
+    const event =
+        theater[theaterId];
+
+    if (!event) {
+        return;
+    }
+
+    resetModalScroll();
+
+    modalImage.src =
+        event.image;
+
+    modalImage.alt =
+        `Афіша вистави ${event.title}`;
+
+    modalCategory.textContent =
+        event.category;
+
+    modalTitle.textContent =
+        event.title;
+
+    modalIntro.textContent =
+        event.intro;
+
+    modalDescription.textContent =
+        event.description;
+
+    modalHighlights.textContent =
+        event.highlights;
+
+    modalDate.textContent =
+        event.date;
+
+    modalTime.textContent =
+        event.time;
+
+    modalPlace.textContent =
+        event.place;
+
+    modal.classList.add(
+        "active"
+    );
+
+    modal.setAttribute(
+        "aria-hidden",
+        "false"
+    );
+
+    document.body.classList.add(
+        "modal-open"
+    );
+
+    resetModalScroll();
+
+    requestAnimationFrame(() => {
+        resetModalScroll();
+    });
+
+}
+
+
+function closeModal() {
+
+    resetModalScroll();
+
+    modal.classList.remove(
+        "active"
+    );
+
+    modal.setAttribute(
+        "aria-hidden",
+        "true"
+    );
+
+    document.body.classList.remove(
+        "modal-open"
+    );
+
+    resetModalScroll();
+
+}
+
+
+document
+    .querySelectorAll(".event-card")
+    .forEach(card => {
+
+        card.addEventListener(
+            "click",
+            function (event) {
+
+                event.preventDefault();
+
+                const theaterId =
+                    this.dataset.theater;
+
+                openModal(theaterId);
+
+            }
+        );
+
+    });
+
+
+modalClose.addEventListener(
+    "click",
+    closeModal
+);
+
+
+modal.addEventListener(
+    "click",
+    function (event) {
+
+        if (
+            event.target === modal
+        ) {
+
+            closeModal();
+
+        }
+
+    }
+);
+
+
+document.addEventListener(
+    "keydown",
+    function (event) {
+
+        if (
+            event.key === "Escape" &&
+            modal.classList.contains("active")
+        ) {
+
+            closeModal();
+
+        }
+
+    }
+);
+
+</script>
+
+</body>
+</html>
